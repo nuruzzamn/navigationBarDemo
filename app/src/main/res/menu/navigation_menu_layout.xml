@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/fe"
+            android:title="FE"
+
+            />
+        <item
+            android:id="@+id/fahs"
+            android:title="FAHS"
+
+            />
+    </group>
+
+    <item android:title="FACULTY OF SCIENCE">
+
+        <menu>
+
+            <item
+                android:id="@+id/cse"
+                android:title="CSE"
+
+                />
+            <item
+                android:id="@+id/se"
+                android:title="SE"
+
+                />
+
+        </menu>
+
+    </item>
+
+
+</menu>
